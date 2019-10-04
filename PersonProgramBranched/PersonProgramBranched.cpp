@@ -2,10 +2,14 @@
 //
 
 #include <iostream>
+#include "ConsoleIO.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	ConsoleIO console;
+	console.Print("printing");
+
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
